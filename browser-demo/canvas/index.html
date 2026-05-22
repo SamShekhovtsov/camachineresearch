@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CA Machines Canvas Lab</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <main class="app-shell">
+    <section class="sim-stage" aria-label="Cellular automata simulation">
+      <canvas id="field" width="256" height="256"></canvas>
+    </section>
+
+    <aside class="control-panel" aria-label="Simulation controls">
+      <div class="brand-block">
+        <h1>CA Machines</h1>
+        <p id="modelSummary">Fused Canvas simulation</p>
+      </div>
+
+      <label class="field-label" for="modelSelect">Model</label>
+      <select id="modelSelect">
+        <option value="life">Custom Life</option>
+        <option value="diffusion">Diffusion</option>
+        <option value="reversible">Reversible Parity</option>
+        <option value="predator">Predator Prey</option>
+      </select>
+
+      <div class="button-row">
+        <button id="toggleRun" type="button">Pause</button>
+        <button id="stepOnce" type="button">Step</button>
+      </div>
+
+      <div class="button-row">
+        <button id="randomize" type="button">Randomize</button>
+        <button id="clear" type="button">Clear</button>
+      </div>
+
+      <label class="field-label" for="stepsPerFrame">Steps per frame <span id="stepsLabel">4</span></label>
+      <input id="stepsPerFrame" type="range" min="1" max="24" value="4">
+
+      <label class="field-label" for="brushSize">Brush size <span id="brushLabel">5</span></label>
+      <input id="brushSize" type="range" min="1" max="24" value="5">
+
+      <div class="rule-grid" id="lifeRules">
+        <label class="field-label" for="surviveInput">Survive</label>
+        <input id="surviveInput" type="text" value="2,3" inputmode="numeric">
+        <label class="field-label" for="birthInput">Birth</label>
+        <input id="birthInput" type="text" value="3" inputmode="numeric">
+      </div>
+
+      <div class="stats-grid">
+        <span>Generation</span><strong id="generation">0</strong>
+        <span>FPS</span><strong id="fps">0</strong>
+        <span>Active</span><strong id="activeCount">0</strong>
+      </div>
+    </aside>
+  </main>
+
+  <script src="./app.js"></script>
+</body>
+</html>
