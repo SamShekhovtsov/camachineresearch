@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CA Machines GPU Lab</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <main class="app-shell">
+    <section class="sim-stage" aria-label="GPU cellular automata simulation">
+      <canvas id="field" width="512" height="512"></canvas>
+    </section>
+
+    <aside class="control-panel" aria-label="Simulation controls">
+      <div class="brand-block">
+        <h1>CA Machines GPU</h1>
+        <p id="backendLabel">Initializing</p>
+      </div>
+
+      <label class="field-label" for="modelSelect">Model</label>
+      <select id="modelSelect">
+        <option value="0">Custom Life</option>
+        <option value="1">Diffusion</option>
+        <option value="2">Reversible Parity</option>
+      </select>
+
+      <div class="button-row">
+        <button id="toggleRun" type="button">Pause</button>
+        <button id="stepOnce" type="button">Step</button>
+      </div>
+
+      <div class="button-row">
+        <button id="randomize" type="button">Randomize</button>
+        <button id="resetView" type="button">Reset</button>
+      </div>
+
+      <label class="field-label" for="stepsPerFrame">GPU steps per frame <span id="stepsLabel">12</span></label>
+      <input id="stepsPerFrame" type="range" min="1" max="80" value="12">
+
+      <div class="rule-grid" id="lifeRules">
+        <label class="field-label" for="surviveInput">Survive</label>
+        <input id="surviveInput" type="text" value="2,3" inputmode="numeric">
+        <label class="field-label" for="birthInput">Birth</label>
+        <input id="birthInput" type="text" value="3" inputmode="numeric">
+      </div>
+
+      <div class="stats-grid">
+        <span>Generation</span><strong id="generation">0</strong>
+        <span>FPS</span><strong id="fps">0</strong>
+        <span>Grid</span><strong>512 x 512</strong>
+      </div>
+    </aside>
+  </main>
+
+  <script src="./app.js"></script>
+</body>
+</html>
