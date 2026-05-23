@@ -8,6 +8,10 @@ A Windows desktop research tool for exploring **cellular automata**, **multi-mat
 
 > The project is designed to study different aspects of the quantum physics and string theory, using Cellular Automata Machine. Download zip, extract to new folder, run CA.UI.exe.
 
+> Looking for other README versions?  
+> - See [README_v2.md](README_v2.md) for the fuller, more detailed project overview  
+> - See [README_v3.md](README_v3.md) for a badge-based, feature-focused public-facing variant
+
 ---
 
 ## Highlights
