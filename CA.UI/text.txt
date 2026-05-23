@@ -1,0 +1,216 @@
+//Емуляція поведінки жорстокого, голодного хижака 
+                        if (MList[3][i, j] > 0)
+                            if (MList[0][i == 0 ? numberOfCellsGorizomtal - 1 : i - 1, j] > 0)
+                            {
+                                MList[0][i == 0 ? numberOfCellsGorizomtal - 1 : i - 1, j] = 0;
+                                //if (MList[3][i == 0 ? numberOfCellsGorizomtal - 1 : i - 1, j] == 0)
+                                //{
+                                    MList[3][i == 0 ? numberOfCellsGorizomtal - 1 : i - 1, j] = MList[3][i, j];
+                                    MList[3][i, j] = 0;
+                                    MList[7][i, j] = 0;
+                                    MList[4][i == 0 ? numberOfCellsGorizomtal - 1 : i - 1, j] = 0;
+                                //}
+                                Satiety = true;
+                            }
+                            else if (MList[0][i == numberOfCellsGorizomtal - 1 ? 0 : i + 1, j] > 0 )
+                            {
+                                MList[0][i == numberOfCellsGorizomtal - 1 ? 0 : i + 1, j] = 0;
+                                //if(MList[3][i == numberOfCellsGorizomtal - 1 ? 0 : i + 1, j]==0)
+                                //{
+                                    MList[3][i == numberOfCellsGorizomtal - 1 ? 0 : i + 1, j] = MList[3][i, j];
+                                    MList[3][i, j] = 0;
+                                    MList[7][i, j] = 0;
+                                    MList[4][i == numberOfCellsGorizomtal - 1 ? 0 : i + 1, j] = 0; 
+                                //}
+                                Satiety = true;
+                            }
+                            else if (MList[0][i, j == 0 ? numberOfCellsVertical - 1 : j - 1] > 0 )
+                            {
+                                MList[0][i, j == 0 ? numberOfCellsVertical - 1 : j - 1] = 0;
+                                //if (MList[3][i, j == 0 ? numberOfCellsVertical - 1 : j - 1] == 0)
+                                //{
+                                    MList[3][i, j == 0 ? numberOfCellsVertical - 1 : j - 1] = MList[3][i, j];
+                                    MList[3][i, j] = 0;
+                                    MList[7][i, j] = 0;
+                                    MList[4][i, j == 0 ? numberOfCellsVertical - 1 : j - 1] = 0;
+                                //}
+                                Satiety = true;
+                            }
+                            else if (MList[0][i, j == numberOfCellsVertical - 1 ? 0 : j + 1] > 0 )
+                            {
+                                MList[0][i, j == numberOfCellsVertical - 1 ? 0 : j + 1] = 0;
+                                //if (MList[3][i, j == numberOfCellsVertical - 1 ? 0 : j + 1] == 0)
+                                //{
+                                    MList[3][i, j == numberOfCellsVertical - 1 ? 0 : j + 1] = MList[3][i, j];
+                                    MList[3][i, j] = 0;
+                                    MList[7][i, j] = 0;
+                                    MList[4][i, j == numberOfCellsVertical - 1 ? 0 : j + 1] = 0;
+                                //}
+                                Satiety = true;
+                            }
+                            else if (MList[0][i == 0 ? numberOfCellsGorizomtal - 1 : i - 1, j == 0 ? numberOfCellsVertical - 1 : j - 1] > 0 )
+                            {
+                                MList[0][i == 0 ? numberOfCellsGorizomtal - 1 : i - 1, j == 0 ? numberOfCellsVertical - 1 : j - 1] = 0;
+                                //if (MList[3][i == 0 ? numberOfCellsGorizomtal - 1 : i - 1, j == 0 ? numberOfCellsVertical - 1 : j - 1] == 0)
+                                //{
+                                    MList[3][i == 0 ? numberOfCellsGorizomtal - 1 : i - 1, j == 0 ? numberOfCellsVertical - 1 : j - 1] = MList[3][i, j];
+                                    MList[3][i, j] = 0;
+                                    MList[7][i, j] = 0;
+                                    MList[4][i == 0 ? numberOfCellsGorizomtal - 1 : i - 1, j == 0 ? numberOfCellsVertical - 1 : j - 1] = 0;
+                                //}
+                                Satiety = true;
+                            }
+                            else if (MList[0][i == numberOfCellsGorizomtal - 1 ? 0 : i + 1, j == numberOfCellsVertical - 1 ? 0 : j + 1] > 0 )
+                            {
+                                MList[0][i == numberOfCellsGorizomtal - 1 ? 0 : i + 1, j == numberOfCellsVertical - 1 ? 0 : j + 1] = 0;
+                                //if (MList[3][i == numberOfCellsGorizomtal - 1 ? 0 : i + 1, j == numberOfCellsVertical - 1 ? 0 : j + 1] == 0)
+                                //{
+                                    MList[3][i == numberOfCellsGorizomtal - 1 ? 0 : i + 1, j == numberOfCellsVertical - 1 ? 0 : j + 1] = MList[3][i, j];
+                                    MList[3][i, j] = 0;
+                                    MList[7][i, j] = 0;
+                                    MList[4][i == numberOfCellsGorizomtal - 1 ? 0 : i + 1, j == numberOfCellsVertical - 1 ? 0 : j + 1] = 0;
+                                //}
+                                Satiety = true;
+                            }
+                            else if (MList[0][i == 0 ? numberOfCellsGorizomtal - 1 : i - 1, j == numberOfCellsVertical - 1 ? 0 : j + 1] > 0 )
+                            {
+                                MList[0][i == 0 ? numberOfCellsGorizomtal - 1 : i - 1, j == numberOfCellsVertical - 1 ? 0 : j + 1] = 0;
+                                //if (MList[3][i == 0 ? numberOfCellsGorizomtal - 1 : i - 1, j == numberOfCellsVertical - 1 ? 0 : j + 1] == 0)
+                                //{
+                                    MList[3][i == 0 ? numberOfCellsGorizomtal - 1 : i - 1, j == numberOfCellsVertical - 1 ? 0 : j + 1] = MList[3][i, j];
+                                    MList[3][i, j] = 0;
+                                    MList[7][i, j] = 0;
+                                    MList[4][i == 0 ? numberOfCellsGorizomtal - 1 : i - 1, j == numberOfCellsVertical - 1 ? 0 : j + 1] = 0;
+                                //}
+                                Satiety = true;
+                            }
+                            else if (MList[0][i == numberOfCellsGorizomtal - 1 ? 0 : i + 1, j == 0 ? numberOfCellsVertical - 1 : j - 1] > 0 )
+                            {
+                                MList[0][i == numberOfCellsGorizomtal - 1 ? 0 : i + 1, j == 0 ? numberOfCellsVertical - 1 : j - 1] = 0;
+                                //if (MList[3][i == numberOfCellsGorizomtal - 1 ? 0 : i + 1, j == 0 ? numberOfCellsVertical - 1 : j - 1] == 0)
+                                //{
+                                    MList[3][i == numberOfCellsGorizomtal - 1 ? 0 : i + 1, j == 0 ? numberOfCellsVertical - 1 : j - 1] = MList[3][i, j];
+                                    MList[3][i, j] = 0;
+                                    MList[7][i, j] = 0;
+                                    MList[4][i == numberOfCellsGorizomtal - 1 ? 0 : i + 1, j == 0 ? numberOfCellsVertical - 1 : j - 1] = 0;
+                                //}
+                                Satiety = true;
+                            }
+                        //cwA
+                        switch (MList[2][i, j])
+                        {
+                            case 0:
+                                {
+                                    cwA = MList[0][i, j == numberOfCellsVertical - 1 ? 0 : j + 1];
+                                    ccwA = MList[0][i == numberOfCellsGorizomtal - 1 ? 0 : i + 1, j];
+                                    oppA = MList[0][i == numberOfCellsGorizomtal - 1 ? 0 : i + 1, j == numberOfCellsVertical - 1 ? 0 : j + 1];
+
+                                    cwB = MList[3][i, j == numberOfCellsVertical - 1 ? 0 : j + 1];
+                                    ccwB = MList[3][i == numberOfCellsGorizomtal - 1 ? 0 : i + 1, j];
+                                    oppB = MList[3][i == numberOfCellsGorizomtal - 1 ? 0 : i + 1, j == numberOfCellsVertical - 1 ? 0 : j + 1];
+
+                                    cw1 = MList[1][i, j == numberOfCellsVertical - 1 ? 0 : j + 1];
+                                    ccw1 = MList[1][i == numberOfCellsGorizomtal - 1 ? 0 : i + 1, j];
+                                    opp1 = MList[1][i == numberOfCellsGorizomtal - 1 ? 0 : i + 1, j == numberOfCellsVertical - 1 ? 0 : j + 1];
+
+                                    Wcw = MList[8][i, j == numberOfCellsVertical - 1 ? 0 : j + 1];
+                                    Wccw = MList[8][i == numberOfCellsGorizomtal - 1 ? 0 : i + 1, j];
+                                    Wopp = MList[8][i == numberOfCellsGorizomtal - 1 ? 0 : i + 1, j == numberOfCellsVertical - 1 ? 0 : j + 1];
+                                    break;
+                                }
+                            case 1:
+                                {
+                                    cwA = MList[0][i == numberOfCellsGorizomtal - 1 ? 0 : i + 1, j];
+                                    ccwA = MList[0][i, j == 0 ? numberOfCellsVertical - 1 : j - 1];
+                                    oppA = MList[0][i == numberOfCellsGorizomtal - 1 ? 0 : i + 1, j == 0 ? numberOfCellsVertical - 1 : j - 1];
+
+                                    cwB = MList[3][i == numberOfCellsGorizomtal - 1 ? 0 : i + 1, j];
+                                    ccwB = MList[3][i, j == 0 ? numberOfCellsVertical - 1 : j - 1];
+                                    oppB = MList[3][i == numberOfCellsGorizomtal - 1 ? 0 : i + 1, j == 0 ? numberOfCellsVertical - 1 : j - 1];
+
+                                    cw1 = MList[1][i == numberOfCellsGorizomtal - 1 ? 0 : i + 1, j];
+                                    ccw1 = MList[1][i, j == 0 ? numberOfCellsVertical - 1 : j - 1];
+                                    opp1 = MList[1][i == numberOfCellsGorizomtal - 1 ? 0 : i + 1, j == 0 ? numberOfCellsVertical - 1 : j - 1];
+
+                                    Wcw = MList[8][i == numberOfCellsGorizomtal - 1 ? 0 : i + 1, j];
+                                    Wccw = MList[8][i, j == 0 ? numberOfCellsVertical - 1 : j - 1];
+                                    Wopp = MList[8][i == numberOfCellsGorizomtal - 1 ? 0 : i + 1, j == 0 ? numberOfCellsVertical - 1 : j - 1];
+                                    break;
+                                }
+                            case 2:
+                                {
+                                    cwA = MList[0][i == 0 ? numberOfCellsGorizomtal - 1 : i - 1, j];
+                                    ccwA = MList[0][i, j == numberOfCellsVertical - 1 ? 0 : j + 1];
+                                    oppA = MList[0][i == 0 ? numberOfCellsGorizomtal - 1 : i - 1, j == numberOfCellsVertical - 1 ? 0 : j + 1];
+
+                                    cwB = MList[3][i == 0 ? numberOfCellsGorizomtal - 1 : i - 1, j];
+                                    ccwB = MList[3][i, j == numberOfCellsVertical - 1 ? 0 : j + 1];
+                                    oppB = MList[3][i == 0 ? numberOfCellsGorizomtal - 1 : i - 1, j == numberOfCellsVertical - 1 ? 0 : j + 1];
+
+                                    cw1 = MList[1][i == 0 ? numberOfCellsGorizomtal - 1 : i - 1, j];
+                                    ccw1 = MList[1][i, j == numberOfCellsVertical - 1 ? 0 : j + 1];
+                                    opp1 = MList[1][i == 0 ? numberOfCellsGorizomtal - 1 : i - 1, j == numberOfCellsVertical - 1 ? 0 : j + 1];
+
+                                    Wcw = MList[8][i == 0 ? numberOfCellsGorizomtal - 1 : i - 1, j];
+                                    Wccw = MList[8][i, j == numberOfCellsVertical - 1 ? 0 : j + 1];
+                                    Wopp = MList[8][i == 0 ? numberOfCellsGorizomtal - 1 : i - 1, j == numberOfCellsVertical - 1 ? 0 : j + 1];
+                                    break;
+                                }
+                            case 3:
+                                {
+                                    //Поле травоядних організмів
+                                    cwA = MList[0][i, j == 0 ? numberOfCellsVertical - 1 : j - 1];
+                                    ccwA = MList[0][i == 0 ? numberOfCellsGorizomtal - 1 : i - 1, j];
+                                    oppA = MList[0][i == 0 ? numberOfCellsGorizomtal - 1 : i - 1, j == 0 ? numberOfCellsVertical - 1 : j - 1];
+
+                                    //Поле хижаків
+                                    cwB = MList[3][i, j == 0 ? numberOfCellsVertical - 1 : j - 1];
+                                    ccwB = MList[3][i == 0 ? numberOfCellsGorizomtal - 1 : i - 1, j];
+                                    oppB = MList[3][i == 0 ? numberOfCellsGorizomtal - 1 : i - 1, j == 0 ? numberOfCellsVertical - 1 : j - 1];
+
+                                    //Забезпечення випадкових наборів
+                                    cw1 = MList[1][i, j == 0 ? numberOfCellsVertical - 1 : j - 1];
+                                    ccw1 = MList[1][i == 0 ? numberOfCellsGorizomtal - 1 : i - 1, j];
+                                    opp1 = MList[1][i == 0 ? numberOfCellsGorizomtal - 1 : i - 1, j == 0 ? numberOfCellsVertical - 1 : j - 1];
+
+                                    //Забезпечення випадкових наборів
+                                    Wcw = MList[8][i, j == 0 ? numberOfCellsVertical - 1 : j - 1];
+                                    Wccw = MList[8][i == 0 ? numberOfCellsGorizomtal - 1 : i - 1, j];
+                                    Wopp = MList[8][i == 0 ? numberOfCellsGorizomtal - 1 : i - 1, j == 0 ? numberOfCellsVertical - 1 : j - 1];
+                                    break;
+                                }
+                        }
+                        
+                        //Генерація випадкових значень
+                        MList[5][i, j] = (byte)(opp1 & ccw1 ^ cw1 ^ MList[1][i, j]);
+                        //Зміна решітки
+                        MList[6][i, j] = (byte)(3 - MList[2][i, j]);
+                        woll = (Wopp + Wccw + Wcw + MList[8][i, j]) > 0 ? true : false;
+
+                        if (woll)
+                        {
+                            MList[4][i, j] = MList[0][i, j];
+                            MList[7][i, j] = MList[3][i, j];
+                        }
+                        //else if (Satiety)
+                        //{
+                        //   // MList[7][i, j] = MList[3][i, j];
+                        //    //MList[4][i, j] = (MList[1][i, j] ^ cw1 ^ ccw1 ^ opp1) == 0 ? ccwA : cwA;
+                        //}
+                        else
+                        {
+                            MList[7][i, j] = (MList[1][i, j] ^ cw1 ^ ccw1 ^ opp1) == 0 ? ccwB : cwB;
+                            MList[4][i, j] = (MList[1][i, j] ^ cw1 ^ ccw1 ^ opp1) == 0 ? ccwA : cwA;
+                        }
+                        if (MList[7][i, j] == MList[4][i, j])
+                            MList[4][i, j] = 0;
+
+                        //MList[0][i == 0 ? numberOfCellsGorizomtal - 1 : i - 1, j];
+                        //MList[0][i == numberOfCellsGorizomtal - 1 ? 0 : i + 1, j];
+                        //MList[0][i, j == 0 ? numberOfCellsVertical - 1 : j - 1];
+                        //MList[0][i, j == numberOfCellsVertical - 1 ? 0 : j + 1];
+                        //temp += (MList[0][i == 0 ? numberOfCellsGorizomtal - 1 : i - 1, j == 0 ? numberOfCellsVertical - 1 : j - 1] > 0) ? 1 : 0;
+                        //temp += (MList[0][i == numberOfCellsGorizomtal - 1 ? 0 : i + 1, j == numberOfCellsVertical - 1 ? 0 : j + 1] > 0) ? 1 : 0;
+                        //temp += (MList[0][i == 0 ? numberOfCellsGorizomtal - 1 : i - 1, j == numberOfCellsVertical - 1 ? 0 : j + 1] > 0) ? 1 : 0;
+                        //temp += (MList[0][i == numberOfCellsGorizomtal - 1 ? 0 : i + 1, j == 0 ? numberOfCellsVertical - 1 : j - 1] > 0) ? 1 : 0;
+                        //Опції забарвлення організмів

@@ -1,0 +1,583 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CellFieldUI_AllCompliteBox_Text" xml:space="preserve">
+    <value>Regenerated successfully</value>
+  </data>
+  <data name="CellFieldUI_AllCompliteBox_Title" xml:space="preserve">
+    <value>Message:</value>
+  </data>
+  <data name="CellFieldUI_btnAccelerate_Text" xml:space="preserve">
+    <value>&gt;&gt;</value>
+  </data>
+  <data name="CellFieldUI_btnApplyemulatorRules_Text" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="CellFieldUI_btnClearAllMatrices_Text" xml:space="preserve">
+    <value>Clear all planes</value>
+  </data>
+  <data name="CellFieldUI_btnClearSelectedPlane_Text" xml:space="preserve">
+    <value>Clear selectetd matrix</value>
+  </data>
+  <data name="CellFieldUI_btnExit_Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="CellFieldUI_btnGoToNextGeneration_Text" xml:space="preserve">
+    <value>Go to next generation</value>
+  </data>
+  <data name="CellFieldUI_btnMakeGistogramma_Text" xml:space="preserve">
+    <value>Create histogram</value>
+  </data>
+  <data name="CellFieldUI_btnShowGraph_Text" xml:space="preserve">
+    <value>Show graph</value>
+  </data>
+  <data name="CellFieldUI_btnSlowDown_Text" xml:space="preserve">
+    <value>&lt;&lt;</value>
+  </data>
+  <data name="CellFieldUI_btnStartGenerateRandomPattern_Start" xml:space="preserve">
+    <value>Start random generation</value>
+  </data>
+  <data name="CellFieldUI_btnStartGenerateRandomPattern_Stop" xml:space="preserve">
+    <value>Stop random generation</value>
+  </data>
+  <data name="CellFieldUI_btnStartGenerateRandomPattern_Text" xml:space="preserve">
+    <value>Start random generation</value>
+  </data>
+  <data name="CellFieldUI_btnStartPoint_Text" xml:space="preserve">
+    <value>Set start point</value>
+  </data>
+  <data name="CellFieldUI_btnStart_Text" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="CellFieldUI_btnSwapMatrices_Text" xml:space="preserve">
+    <value>Swap matrices</value>
+  </data>
+  <data name="CellFieldUI_camOptions_Text" xml:space="preserve">
+    <value>&amp;Configuration</value>
+  </data>
+  <data name="CellFieldUI_gbFieldLocation_Text" xml:space="preserve">
+    <value>Field location</value>
+  </data>
+  <data name="CellFieldUI_gbGenerateRandomPattern_Text" xml:space="preserve">
+    <value>Generate random pattern for selected matrix</value>
+  </data>
+  <data name="CellFieldUI_gbGraphs_Text" xml:space="preserve">
+    <value>Charts</value>
+  </data>
+  <data name="CellFieldUI_gbIntervalForBirth_Text" xml:space="preserve">
+    <value>Інтервал народження потомства</value>
+  </data>
+  <data name="CellFieldUI_gbLifeDuration_Text" xml:space="preserve">
+    <value>The lifetime</value>
+  </data>
+  <data name="CellFieldUI_gbMessage_Text" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="CellFieldUI_gbPredatorsConf_Text" xml:space="preserve">
+    <value>Time of starvation for predators</value>
+  </data>
+  <data name="CellFieldUI_gbSelectPlane_Text" xml:space="preserve">
+    <value>Select matrix to change</value>
+  </data>
+  <data name="CellFieldUI_gpbAutoTransitions_Text" xml:space="preserve">
+    <value>Change generations automatically</value>
+  </data>
+  <data name="CellFieldUI_lblCellsSize_Text" xml:space="preserve">
+    <value>Cell size mode (mashine state will be set to default!)</value>
+  </data>
+  <data name="CellFieldUI_lblEmulatorConfiguration_Text" xml:space="preserve">
+    <value>CA Configuration</value>
+  </data>
+  <data name="CellFieldUI_lblHerbivorous_Text" xml:space="preserve">
+    <value>Herbivorous</value>
+  </data>
+  <data name="CellFieldUI_lblPredators_Text" xml:space="preserve">
+    <value>Predators</value>
+  </data>
+  <data name="CellFieldUI_lblSpeed_Text" xml:space="preserve">
+    <value>Speed</value>
+  </data>
+  <data name="CellFieldUI_ok_Text" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="CellFieldUI_rbPlane0_Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="CellFieldUI_rbPlane1_Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="CellFieldUI_rbPlane2_Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="CellFieldUI_rbPlane3_Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="CellFieldUI_rbPlane8_Text" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="CellFieldUI_Text" xml:space="preserve">
+    <value>Cellular atomata machine</value>
+  </data>
+  <data name="CellFieldUI_tpAnalytics_Text" xml:space="preserve">
+    <value>Tracking</value>
+  </data>
+  <data name="CellFieldUI_tpDemography_Text" xml:space="preserve">
+    <value>Matrix details</value>
+  </data>
+  <data name="CellFieldUI_tpFieldOptions_Text" xml:space="preserve">
+    <value>Matrices</value>
+  </data>
+  <data name="CellFieldUI_tpMainControlBox_Text" xml:space="preserve">
+    <value>Control panel</value>
+  </data>
+  <data name="CellFieldUI_tsbClearSelectedPlane_Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="CellFieldUI_tsbClearSelectedPlane_ToolTipText" xml:space="preserve">
+    <value>Clear selected matrix</value>
+  </data>
+  <data name="CellFieldUI_tsbDoTransition_Text" xml:space="preserve">
+    <value>Do transition one step</value>
+  </data>
+  <data name="CellFieldUI_tsbDoTransition_ToolTipText" xml:space="preserve">
+    <value>Do transitions in the background</value>
+  </data>
+  <data name="CellFieldUI_tsbsaveResultsToFile_Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="CellFieldUI_tsbsaveResultsToFile_ToolTipText" xml:space="preserve">
+    <value>Save machine state to file</value>
+  </data>
+  <data name="CellFieldUI_tsbSelectRules_Text" xml:space="preserve">
+    <value>Select rules</value>
+  </data>
+  <data name="CellFieldUI_tsbSelectRules_ToolTipText" xml:space="preserve">
+    <value>Select rules for machine</value>
+  </data>
+  <data name="CellFieldUI_tsbSetStartPoint_Text" xml:space="preserve">
+    <value>Set start point</value>
+  </data>
+  <data name="CellFieldUI_tsbSetStartPoint_ToolTipText" xml:space="preserve">
+    <value>Set start point for statistics graph</value>
+  </data>
+  <data name="CellFieldUI_tsmiAboutApp_Text" xml:space="preserve">
+    <value>About application</value>
+  </data>
+  <data name="CellFieldUI_tsmiAdditionalFieldOptions_Text" xml:space="preserve">
+    <value>More field options</value>
+  </data>
+  <data name="CellFieldUI_tsmiBuildHistogram_Text" xml:space="preserve">
+    <value>Create histogram</value>
+  </data>
+  <data name="CellFieldUI_tsmiCheckNewVersion_Text" xml:space="preserve">
+    <value>Check for new version</value>
+  </data>
+  <data name="CellFieldUI_tsmiCreateGraph_Text" xml:space="preserve">
+    <value>Create graph</value>
+  </data>
+  <data name="CellFieldUI_tsmiDefaultConfigurations_Text" xml:space="preserve">
+    <value>Apply default configuration</value>
+  </data>
+  <data name="CellFieldUI_tsmiExec_Text" xml:space="preserve">
+    <value>&amp;Tools</value>
+  </data>
+  <data name="CellFieldUI_tsmiHelpCategory_Text" xml:space="preserve">
+    <value>&amp;Other</value>
+  </data>
+  <data name="CellFieldUI_tsmiSetRules_Text" xml:space="preserve">
+    <value>Change rules</value>
+  </data>
+  <data name="CellFieldUI_tsmiViewHelp_Text" xml:space="preserve">
+    <value>&amp;Help</value>
+  </data>
+  <data name="CellFieldUI_tsslTransitionStatus_Text" xml:space="preserve">
+    <value>|    Progress of generations changing:</value>
+  </data>
+  <data name="CellFieldUI_выходToolStripMenuItem_Text" xml:space="preserve">
+    <value>Exit app</value>
+  </data>
+  <data name="CellFieldUI_загрузитьИзФайлаToolStripMenuItem_Text" xml:space="preserve">
+    <value>Load machine state from file</value>
+  </data>
+  <data name="CellFieldUI_новоеПолеToolStripMenuItem_Text" xml:space="preserve">
+    <value>Clear all fields</value>
+  </data>
+  <data name="CellFieldUI_перейтиНаХХХПоколіньToolStripMenuItem_Text" xml:space="preserve">
+    <value>Do transitions multiple times </value>
+  </data>
+  <data name="CellFieldUI_сохранитьВФайлToolStripMenuItem_Text" xml:space="preserve">
+    <value>Save machine state to file</value>
+  </data>
+  <data name="CellFieldUI_файлToolStripMenuItem_Text" xml:space="preserve">
+    <value>&amp;Main</value>
+  </data>
+  <data name="Rules_TM_GAS_Description" xml:space="preserve">
+    <value>Модель розрідженого газу з врахуванням зіткнень частинок, та зіткнень частинок з стінками пробірки. Автор Норман Марголус (Масачусетський технологічний інститут).</value>
+  </data>
+  <data name="Rules_TM_GAS_Name" xml:space="preserve">
+    <value>Приклад TM - газу</value>
+  </data>
+  <data name="SaveFileDlg_Filter" xml:space="preserve">
+    <value>CA Model files (*.camodel)|*.camodel|All files (*.*)|*.*</value>
+  </data>
+  <data name="SelectedRules" xml:space="preserve">
+    <value>Current rules:</value>
+  </data>
+  <data name="Rules_Silverman_Name" xml:space="preserve">
+    <value>Cистеми другого порядку</value>
+  </data>
+  <data name="TuningOfTheField_MainText" xml:space="preserve">
+    <value>Cellular automata machine \n April 2008р.</value>
+  </data>
+  <data name="AppVersionInfo_About" xml:space="preserve">
+    <value>About application version</value>
+  </data>
+  <data name="AppVersionInfo_btnOkay_Text" xml:space="preserve">
+    <value>&amp;OK</value>
+  </data>
+  <data name="AppVersionInfo_lblCompanyName_Text" xml:space="preserve">
+    <value>Company name</value>
+  </data>
+  <data name="AppVersionInfo_lblCopyright_Text" xml:space="preserve">
+    <value>Copyright</value>
+  </data>
+  <data name="AppVersionInfo_lblProductName_Text" xml:space="preserve">
+    <value>Application name</value>
+  </data>
+  <data name="AppVersionInfo_lblVersion_Text" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="AppVersionInfo_Text" xml:space="preserve">
+    <value>Cellular automata</value>
+  </data>
+  <data name="AppVersionInfo_txbDescription_Text" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="AppVersionInfo_Version" xml:space="preserve">
+    <value>Version of the application</value>
+  </data>
+  <data name="Diagramme_lblCellsCount_Text" xml:space="preserve">
+    <value>Cells count</value>
+  </data>
+  <data name="Diagramme_lblGeneration_Text" xml:space="preserve">
+    <value>Generation</value>
+  </data>
+  <data name="Diagramme_Text" xml:space="preserve">
+    <value>Diagram</value>
+  </data>
+  <data name="Diagramme_tsmiLegend_Text" xml:space="preserve">
+    <value>Legend</value>
+  </data>
+  <data name="GistogrammaOfCurrentPlane_btnOkay_Text" xml:space="preserve">
+    <value>Ок</value>
+  </data>
+  <data name="GistogrammaOfCurrentPlane_lblCells_Text" xml:space="preserve">
+    <value>cells</value>
+  </data>
+  <data name="GistogrammaOfCurrentPlane_lblCount_Text" xml:space="preserve">
+    <value>Count</value>
+  </data>
+  <data name="GistogrammaOfCurrentPlane_lblGistogrammaView_Text" xml:space="preserve">
+    <value>View histogram</value>
+  </data>
+  <data name="GistogrammaOfCurrentPlane_lblOfActive_Text" xml:space="preserve">
+    <value>active</value>
+  </data>
+  <data name="GistogrammaOfCurrentPlane_Text" xml:space="preserve">
+    <value>Histogram</value>
+  </data>
+  <data name="Rules_AntiWorm_Description" xml:space="preserve">
+    <value>Модель збудження нейронів. Стимул активації комірки забезпечуєтся наявністю декількох сусідів, а клітини мають визначений час відтворення. В даній моделі використано від'ємний зворотній зв'язок.</value>
+  </data>
+  <data name="Rules_AntiWorm_Name" xml:space="preserve">
+    <value>Нейронна мережа</value>
+  </data>
+  <data name="Rules_BenksComp_Description" xml:space="preserve">
+    <value>Найпростіший підхід Бенкса, придатний для побудови обчислювальних схем довільного рівня складності. Якщо кількість сусідів в стані 1 (без врахування стану центральної комірки) рівно двом, то потрібно визначити як вони розташовані, якщо під кутом 90 то центральна комірка обнуляється. Плідно працювали в цьому напрямі: Джон Фон Нейман, Бенкс, Кодд Е.Ф. Зокрема Фон Нейман побудував обчислювального/самовідтворюючого робота.</value>
+  </data>
+  <data name="Rules_BenksComp_Name" xml:space="preserve">
+    <value>Комп'ютер Бенкса</value>
+  </data>
+  <data name="Rules_Demografia_Description" xml:space="preserve">
+    <value>Модель розвитку двох видів - травоїдних та хижаків. Дозволяє досліджувати процеси демографічного розвитку.</value>
+  </data>
+  <data name="Rules_Demographiya_Name" xml:space="preserve">
+    <value>Боротьба за виживання</value>
+  </data>
+  <data name="Rules_Dendrit_Description" xml:space="preserve">
+    <value>Правило запропоноване Чарлзом Беннетом, обмежене дифузією агрегуванняколи частинки налипають на початковий зародок, і помалу нарощують його. Моделі дендритного розвитку апроксимують фізичні процеси росту речовини (матеріал росту з'являється ззовні, або зникає побічний продукт росту - напр. тепло).</value>
+  </data>
+  <data name="Rules_Dendrit_Name" xml:space="preserve">
+    <value>Розвиток дендритів</value>
+  </data>
+  <data name="Rules_GM_GAS_Description" xml:space="preserve">
+    <value>Модель щільних газів з врахуванням зіткнень зафарбованих частинок. Модель дозволяє досліджувати реальні процеси дифузії та  встановлення теплової рівноваги.</value>
+  </data>
+  <data name="Rules_GM_GAS_Name" xml:space="preserve">
+    <value>Приклад GM - газу</value>
+  </data>
+  <data name="Rules_GreenbergEndGastings_Description" xml:space="preserve">
+    <value>Це правило має декілька типів активності, залежних від початкових умов.Правило розраховане Грінбергом Дж. та С. Гастінгом. Дозволяе вивчати поведінку хвиль різних частот.</value>
+  </data>
+  <data name="Rules_GreenbergEndGastings_Name" xml:space="preserve">
+    <value>Закон Грінберга і Гастінгса</value>
+  </data>
+  <data name="Rules_Naiv_Deffusion_Description" xml:space="preserve">
+    <value>Модель дифузії щільних газів, без врахування зіткнень зафарбованих частинок</value>
+  </data>
+  <data name="Rules_Naiv_Deffusion_Name" xml:space="preserve">
+    <value>Наївна дифузія</value>
+  </data>
+  <data name="Rules_ParityFlip_Description" xml:space="preserve">
+    <value>Зв'язок між минулим та майбутнім. Простий приклад зворотності. Виконуется логічне \"або\" центральної комірки чотирьох її сусідів, та центральної комірки минулого покоління.</value>
+  </data>
+  <data name="Rules_ParityFlip_Name" xml:space="preserve">
+    <value>Експеремент зв'язку між минулим та майбутнім</value>
+  </data>
+  <data name="Rules_Primitiv_Deffusion_Description" xml:space="preserve">
+    <value>Примітивний ємулятор дифузії. Комірки дифундують вздовж горизонтальних ліній.</value>
+  </data>
+  <data name="Rules_Primitiv_Deffusion_Name" xml:space="preserve">
+    <value>Примітивна дифузія</value>
+  </data>
+  <data name="Rules_Rac_Description" xml:space="preserve">
+    <value>Tracking destruction in evolution of two equal not synchronized systems</value>
+    <comment>Модель, що дозволяє відслідковувати відмінності в розвиткові двох систем. При проведенні фізичних експерементів це складно виконати, оскільки зовнішні збудження по різному діють на дві копії і при довгій роботі можуть подавити ефекти, які треба відслідкувати.</comment>
+  </data>
+  <data name="Rules_Rac_Name" xml:space="preserve">
+    <value>Tracking destruction in evolution of two equal not synchronized systems</value>
+  </data>
+  <data name="Rules_Time_Tunnel_Description" xml:space="preserve">
+    <value>\"Нипроникний бар'ер\". Якщо задати початкову конфігурацію як фігуру з одиниць в обох массивах, отримаемо непроникний бар'ер. Ще один приклад подорожі в часі...</value>
+  </data>
+  <data name="Rules_Time_Tunnel_Name" xml:space="preserve">
+    <value>Тунель у часі</value>
+  </data>
+  <data name="Rules_UserOptions_Description" xml:space="preserve">
+    <value>Ведіть числа, що відповідають кількості сусідів, розділені комами.  Наприклад: 1,3,6-9</value>
+  </data>
+  <data name="Rules_UserOptions_Name" xml:space="preserve">
+    <value>Custom rules</value>
+  </data>
+  <data name="Rules_VishnaksOptions_Description" xml:space="preserve">
+    <value>Правило виведене Геральдом Вішняком, полягае в \"голосуванні клітин\". Є базою при побудві моделей континуальних явищ поверхневого натягу.</value>
+  </data>
+  <data name="Rules_VishnaksOptions_Name" xml:space="preserve">
+    <value>Поверхневий натяг</value>
+  </data>
+  <data name="SelectRules_btnOkay_Text" xml:space="preserve">
+    <value>Ок</value>
+  </data>
+  <data name="SelectRules_gbSelectRules_Text" xml:space="preserve">
+    <value>Select rules for CA machine</value>
+  </data>
+  <data name="SelectRules_lblBirthRules_Text" xml:space="preserve">
+    <value>For birth</value>
+  </data>
+  <data name="SelectRules_lblSurvivalRules_Text" xml:space="preserve">
+    <value>For survival</value>
+  </data>
+  <data name="SelectRules_Text" xml:space="preserve">
+    <value>Configure rules</value>
+  </data>
+  <data name="TuningOfTheField_btnAgree_Text" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="TuningOfTheField_btnCancel_Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="TuningOfTheField_chbDontShowInnerBorders_Text" xml:space="preserve">
+    <value>Don't show cell borders (unavailable for pixel cell size)</value>
+  </data>
+  <data name="TuningOfTheField_gbOptions_Text" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="TuningOfTheField_lblCellSize_Text" xml:space="preserve">
+    <value>Cell size mode (mashine state will be set to default!)</value>
+  </data>
+  <data name="TuningOfTheField_lblFieldSize_Text" xml:space="preserve">
+    <value>Field size (pixels)</value>
+  </data>
+  <data name="TuningOfTheField_Text" xml:space="preserve">
+    <value>Cofigure field options</value>
+  </data>
+  <data name="Updater_ErrorMessage_Text" xml:space="preserve">
+    <value>Unable to get version information from the server. Please check your internet connection or firewall rules.</value>
+  </data>
+  <data name="Updater_ErrorMessage_Title" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Updater_UpdateMessage" xml:space="preserve">
+    <value>Update to new version</value>
+  </data>
+  <data name="CellFieldUI_btnStart_Stop_Text" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="CellFieldUI_tsmiSelectLanguage_Text" xml:space="preserve">
+    <value>Select language</value>
+  </data>
+  <data name="Rules_Silverman_Description" xml:space="preserve">
+    <value>Приклад системи другого порядку - де наступна конфігурація є функцією теперішньої і минулої конфігурацій, тобто, при визначенні подальшої траекторії використовується пара послідовних конфігурацій. Зворотністі системи дозволяє на її базі моделювати процеси Нь'ютонівської механіки. Автор - Ед Френкін, Масачусетський технологічний інститут.</value>
+  </data>
+  <data name="Updater_Update_AvailableNewVersion" xml:space="preserve">
+    <value>There is a new version available. Do you want to upload it?</value>
+  </data>
+  <data name="Updater_Update_NotAvailable" xml:space="preserve">
+    <value>No new verions available</value>
+  </data>
+  <data name="Updater_Update_Title" xml:space="preserve">
+    <value>Checking for new versions</value>
+  </data>
+  <data name="CellFieldUI_gbPlanesToShow_Text" xml:space="preserve">
+    <value>Preview matrices content</value>
+  </data>
+  <data name="CellFieldUI_btnDisplayContent_Text" xml:space="preserve">
+    <value>Display content</value>
+  </data>
+  <data name="Rules_HarmonicOscillator_Description" xml:space="preserve">
+    <value>Harmonic Oscillator</value>
+  </data>
+  <data name="Rules_HarmonicOscillator_Name" xml:space="preserve">
+    <value>Harmonic Oscillator</value>
+  </data>
+  <data name="CellFieldUI_gbCellsSize_Text" xml:space="preserve">
+    <value>Size of a cell</value>
+  </data>
+  <data name="LoadCellValueNotFound" xml:space="preserve">
+    <value>Cell value was not found</value>
+  </data>
+  <data name="LoadCellValueCoordinatesAreNotCorrect" xml:space="preserve">
+    <value>Coordinates are not correct</value>
+  </data>
+  <data name="btnGetCell_Text" xml:space="preserve">
+    <value>Load</value>
+  </data>
+  <data name="btnSetCell_Text" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="CellFieldUI_CellValue" xml:space="preserve">
+    <value>Value:</value>
+  </data>
+  <data name="lblCellValue" xml:space="preserve">
+    <value>Get or Set value of a cell</value>
+  </data>
+  <data name="lblMouseCurrentPosition_Text" xml:space="preserve">
+    <value>Position: {0}</value>
+  </data>
+</root>

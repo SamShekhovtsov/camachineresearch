@@ -1,0 +1,585 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppVersionInfo_About" xml:space="preserve">
+    <value>Про версію додатку</value>
+  </data>
+  <data name="AppVersionInfo_btnOkay_Text" xml:space="preserve">
+    <value>&amp;OK</value>
+  </data>
+  <data name="AppVersionInfo_lblCompanyName_Text" xml:space="preserve">
+    <value>Назва компанії</value>
+  </data>
+  <data name="AppVersionInfo_lblCopyright_Text" xml:space="preserve">
+    <value>Авторське право</value>
+  </data>
+  <data name="AppVersionInfo_lblProductName_Text" xml:space="preserve">
+    <value>Назва програмного продукту</value>
+  </data>
+  <data name="AppVersionInfo_lblVersion_Text" xml:space="preserve">
+    <value>Версія</value>
+  </data>
+  <data name="AppVersionInfo_Text" xml:space="preserve">
+    <value>Клітині автомати</value>
+  </data>
+  <data name="AppVersionInfo_txbDescription_Text" xml:space="preserve">
+    <value>Детальна інформація</value>
+  </data>
+  <data name="AppVersionInfo_Version" xml:space="preserve">
+    <value>Версія додатку</value>
+  </data>
+  <data name="CellFieldUI_AllCompliteBox_Text" xml:space="preserve">
+    <value>Перерахунок вдало виконано!</value>
+  </data>
+  <data name="CellFieldUI_AllCompliteBox_Title" xml:space="preserve">
+    <value>Сповіщення:</value>
+  </data>
+  <data name="CellFieldUI_btnAccelerate_Text" xml:space="preserve">
+    <value>&gt;&gt;</value>
+  </data>
+  <data name="CellFieldUI_btnApplyemulatorRules_Text" xml:space="preserve">
+    <value>Застосувати</value>
+  </data>
+  <data name="CellFieldUI_btnClearAllMatrices_Text" xml:space="preserve">
+    <value>Очистити всі поля</value>
+  </data>
+  <data name="CellFieldUI_btnClearSelectedPlane_Text" xml:space="preserve">
+    <value>Очистити площину</value>
+  </data>
+  <data name="CellFieldUI_btnExit_Text" xml:space="preserve">
+    <value>Залишити програму</value>
+  </data>
+  <data name="CellFieldUI_btnGoToNextGeneration_Text" xml:space="preserve">
+    <value>Наступне покоління</value>
+  </data>
+  <data name="CellFieldUI_btnMakeGistogramma_Text" xml:space="preserve">
+    <value>Побудувати гістограму</value>
+  </data>
+  <data name="CellFieldUI_btnShowGraph_Text" xml:space="preserve">
+    <value>Показати графік</value>
+  </data>
+  <data name="CellFieldUI_btnSlowDown_Text" xml:space="preserve">
+    <value>&lt;&lt;</value>
+  </data>
+  <data name="CellFieldUI_btnStartGenerateRandomPattern_Start" xml:space="preserve">
+    <value>Розпочати</value>
+  </data>
+  <data name="CellFieldUI_btnStartGenerateRandomPattern_Stop" xml:space="preserve">
+    <value>Досить</value>
+  </data>
+  <data name="CellFieldUI_btnStartGenerateRandomPattern_Text" xml:space="preserve">
+    <value>Розпочати</value>
+  </data>
+  <data name="CellFieldUI_btnStartPoint_Text" xml:space="preserve">
+    <value>Точка відліку</value>
+  </data>
+  <data name="CellFieldUI_btnStart_Stop_Text" xml:space="preserve">
+    <value>Стоп</value>
+  </data>
+  <data name="CellFieldUI_btnStart_Text" xml:space="preserve">
+    <value>Пуск</value>
+  </data>
+  <data name="CellFieldUI_btnSwapMatrices_Text" xml:space="preserve">
+    <value>Обміняти масиви</value>
+  </data>
+  <data name="CellFieldUI_camOptions_Text" xml:space="preserve">
+    <value>&amp;Опції</value>
+  </data>
+  <data name="CellFieldUI_gbFieldLocation_Text" xml:space="preserve">
+    <value>Розміщення поля</value>
+  </data>
+  <data name="CellFieldUI_gbGenerateRandomPattern_Text" xml:space="preserve">
+    <value>Генерація випадкового патерну для обраної площини</value>
+  </data>
+  <data name="CellFieldUI_gbGraphs_Text" xml:space="preserve">
+    <value>Графіки</value>
+  </data>
+  <data name="CellFieldUI_gbIntervalForBirth_Text" xml:space="preserve">
+    <value>Інтервал народження потомства</value>
+  </data>
+  <data name="CellFieldUI_gbLifeDuration_Text" xml:space="preserve">
+    <value>Час життя</value>
+  </data>
+  <data name="CellFieldUI_gbMessage_Text" xml:space="preserve">
+    <value>Повідомлення</value>
+  </data>
+  <data name="CellFieldUI_gbPredatorsConf_Text" xml:space="preserve">
+    <value>Час голодної смерті у хижаків</value>
+  </data>
+  <data name="CellFieldUI_gbSelectPlane_Text" xml:space="preserve">
+    <value>Вибір площини для змін</value>
+  </data>
+  <data name="CellFieldUI_gpbAutoTransitions_Text" xml:space="preserve">
+    <value>Автоматична зміна поколінь</value>
+  </data>
+  <data name="CellFieldUI_lblCellsSize_Text" xml:space="preserve">
+    <value>Розміри комірок</value>
+  </data>
+  <data name="CellFieldUI_lblEmulatorConfiguration_Text" xml:space="preserve">
+    <value>Налаштування емулятора</value>
+  </data>
+  <data name="CellFieldUI_lblHerbivorous_Text" xml:space="preserve">
+    <value>Травоїдні</value>
+  </data>
+  <data name="CellFieldUI_lblPredators_Text" xml:space="preserve">
+    <value>Хижаки</value>
+  </data>
+  <data name="CellFieldUI_lblSpeed_Text" xml:space="preserve">
+    <value>Швидкість</value>
+  </data>
+  <data name="CellFieldUI_ok_Text" xml:space="preserve">
+    <value>ОК</value>
+  </data>
+  <data name="CellFieldUI_rbPlane0_Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="CellFieldUI_rbPlane1_Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="CellFieldUI_rbPlane2_Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="CellFieldUI_rbPlane3_Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="CellFieldUI_rbPlane8_Text" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="CellFieldUI_Text" xml:space="preserve">
+    <value>Коміркові автомати</value>
+  </data>
+  <data name="CellFieldUI_tpAnalytics_Text" xml:space="preserve">
+    <value>Відстеження</value>
+  </data>
+  <data name="CellFieldUI_tpDemography_Text" xml:space="preserve">
+    <value>Властивості матриці</value>
+  </data>
+  <data name="CellFieldUI_tpFieldOptions_Text" xml:space="preserve">
+    <value>Поле</value>
+  </data>
+  <data name="CellFieldUI_tpMainControlBox_Text" xml:space="preserve">
+    <value>Головна</value>
+  </data>
+  <data name="CellFieldUI_tsbClearSelectedPlane_Text" xml:space="preserve">
+    <value>Очистити</value>
+  </data>
+  <data name="CellFieldUI_tsbClearSelectedPlane_ToolTipText" xml:space="preserve">
+    <value>Очистити обрану площину</value>
+  </data>
+  <data name="CellFieldUI_tsbDoTransition_Text" xml:space="preserve">
+    <value>Виконати перехід</value>
+  </data>
+  <data name="CellFieldUI_tsbDoTransition_ToolTipText" xml:space="preserve">
+    <value>Виконати перехід у фоновому режимі на задану кількість поколінь</value>
+  </data>
+  <data name="CellFieldUI_tsbsaveResultsToFile_Text" xml:space="preserve">
+    <value>Зберегти</value>
+  </data>
+  <data name="CellFieldUI_tsbsaveResultsToFile_ToolTipText" xml:space="preserve">
+    <value>Зберегти результати до файлу</value>
+  </data>
+  <data name="CellFieldUI_tsbSelectRules_Text" xml:space="preserve">
+    <value>Обрати правила</value>
+  </data>
+  <data name="CellFieldUI_tsbSelectRules_ToolTipText" xml:space="preserve">
+    <value>Обрати варіант правил розвитку</value>
+  </data>
+  <data name="CellFieldUI_tsbSetStartPoint_Text" xml:space="preserve">
+    <value>Встановити точку відліку</value>
+  </data>
+  <data name="CellFieldUI_tsbSetStartPoint_ToolTipText" xml:space="preserve">
+    <value>Встановити точку відліку для побудови графіка</value>
+  </data>
+  <data name="CellFieldUI_tsmiAboutApp_Text" xml:space="preserve">
+    <value>Про програму</value>
+  </data>
+  <data name="CellFieldUI_tsmiAdditionalFieldOptions_Text" xml:space="preserve">
+    <value>Дод. парметри поля</value>
+  </data>
+  <data name="CellFieldUI_tsmiBuildHistogram_Text" xml:space="preserve">
+    <value>Побудувати гістограму</value>
+  </data>
+  <data name="CellFieldUI_tsmiCheckNewVersion_Text" xml:space="preserve">
+    <value>Перевірити доступність нової версії програми</value>
+  </data>
+  <data name="CellFieldUI_tsmiCreateGraph_Text" xml:space="preserve">
+    <value>Побудувати графік</value>
+  </data>
+  <data name="CellFieldUI_tsmiDefaultConfigurations_Text" xml:space="preserve">
+    <value>Налаштування по замовчуванню</value>
+  </data>
+  <data name="CellFieldUI_tsmiExec_Text" xml:space="preserve">
+    <value>&amp;Завдання</value>
+  </data>
+  <data name="CellFieldUI_tsmiHelpCategory_Text" xml:space="preserve">
+    <value>&amp;Допомога</value>
+  </data>
+  <data name="CellFieldUI_tsmiSelectLanguage_Text" xml:space="preserve">
+    <value>Обрати мову</value>
+  </data>
+  <data name="CellFieldUI_tsmiSetRules_Text" xml:space="preserve">
+    <value>Встановити правила</value>
+  </data>
+  <data name="CellFieldUI_tsmiViewHelp_Text" xml:space="preserve">
+    <value>Переглянути допомогу</value>
+  </data>
+  <data name="CellFieldUI_tsslTransitionStatus_Text" xml:space="preserve">
+    <value>|    Хід виконання перерахунку:</value>
+  </data>
+  <data name="CellFieldUI_выходToolStripMenuItem_Text" xml:space="preserve">
+    <value>Залишити программу</value>
+  </data>
+  <data name="CellFieldUI_загрузитьИзФайлаToolStripMenuItem_Text" xml:space="preserve">
+    <value>Завантажити з файлу</value>
+  </data>
+  <data name="CellFieldUI_новоеПолеToolStripMenuItem_Text" xml:space="preserve">
+    <value>Очистити всі площини</value>
+  </data>
+  <data name="CellFieldUI_перейтиНаХХХПоколіньToolStripMenuItem_Text" xml:space="preserve">
+    <value>Перейти на ХХХ поколінь</value>
+  </data>
+  <data name="CellFieldUI_сохранитьВФайлToolStripMenuItem_Text" xml:space="preserve">
+    <value>Зберегти в файл</value>
+  </data>
+  <data name="CellFieldUI_файлToolStripMenuItem_Text" xml:space="preserve">
+    <value>&amp;Файл</value>
+  </data>
+  <data name="Diagramme_lblCellsCount_Text" xml:space="preserve">
+    <value>Кількість клітин</value>
+  </data>
+  <data name="Diagramme_lblGeneration_Text" xml:space="preserve">
+    <value>Покоління</value>
+  </data>
+  <data name="Diagramme_Text" xml:space="preserve">
+    <value>Діаграма</value>
+  </data>
+  <data name="Diagramme_tsmiLegend_Text" xml:space="preserve">
+    <value>Легенда</value>
+  </data>
+  <data name="GistogrammaOfCurrentPlane_btnOkay_Text" xml:space="preserve">
+    <value>Ок</value>
+  </data>
+  <data name="GistogrammaOfCurrentPlane_lblCells_Text" xml:space="preserve">
+    <value>клітин</value>
+  </data>
+  <data name="GistogrammaOfCurrentPlane_lblCount_Text" xml:space="preserve">
+    <value>Кількість</value>
+  </data>
+  <data name="GistogrammaOfCurrentPlane_lblGistogrammaView_Text" xml:space="preserve">
+    <value>Перегляд гістограми</value>
+  </data>
+  <data name="GistogrammaOfCurrentPlane_lblOfActive_Text" xml:space="preserve">
+    <value>активних</value>
+  </data>
+  <data name="GistogrammaOfCurrentPlane_Text" xml:space="preserve">
+    <value>Гістограмма</value>
+  </data>
+  <data name="Rules_AntiWorm_Description" xml:space="preserve">
+    <value>Модель збудження нейронів. Стимул активації комірки забезпечуєтся наявністю декількох сусідів, а клітини мають визначений час відтворення. В даній моделі використано від'ємний зворотній зв'язок.</value>
+  </data>
+  <data name="Rules_AntiWorm_Name" xml:space="preserve">
+    <value>Нейронна мережа</value>
+  </data>
+  <data name="Rules_BenksComp_Description" xml:space="preserve">
+    <value>Найпростіший підхід Бенкса, придатний для побудови обчислювальних схем довільного рівня складності. Якщо кількість сусідів в стані 1 (без врахування стану центральної комірки) рівно двом, то потрібно визначити як вони розташовані, якщо під кутом 90 то центральна комірка обнуляється. Плідно працювали в цьому напрямі: Джон Фон Нейман, Бенкс, Кодд Е.Ф. Зокрема Фон Нейман побудував обчислювального/самовідтворюючого робота.</value>
+  </data>
+  <data name="Rules_BenksComp_Name" xml:space="preserve">
+    <value>Комп'ютер Бенкса</value>
+  </data>
+  <data name="Rules_Demografia_Description" xml:space="preserve">
+    <value>Модель розвитку двох видів - травоїдних та хижаків. Дозволяє досліджувати процеси демографічного розвитку.</value>
+  </data>
+  <data name="Rules_Demographiya_Name" xml:space="preserve">
+    <value>Боротьба за виживання</value>
+  </data>
+  <data name="Rules_Dendrit_Description" xml:space="preserve">
+    <value>Правило запропоноване Чарлзом Беннетом, обмежене дифузією агрегуванняколи частинки налипають на початковий зародок, і помалу нарощують його. Моделі дендритного розвитку апроксимують фізичні процеси росту речовини (матеріал росту з'являється ззовні, або зникає побічний продукт росту - напр. тепло).</value>
+  </data>
+  <data name="Rules_Dendrit_Name" xml:space="preserve">
+    <value>Розвиток дендритів</value>
+  </data>
+  <data name="Rules_GM_GAS_Description" xml:space="preserve">
+    <value>Модель щільних газів з врахуванням зіткнень зафарбованих частинок. Модель дозволяє досліджувати реальні процеси дифузії та  встановлення теплової рівноваги.</value>
+  </data>
+  <data name="Rules_GM_GAS_Name" xml:space="preserve">
+    <value>Приклад GM - газу</value>
+  </data>
+  <data name="Rules_GreenbergEndGastings_Description" xml:space="preserve">
+    <value>Це правило має декілька типів активності, залежних від початкових умов.Правило розраховане Грінбергом Дж. та С. Гастінгом. Дозволяе вивчати поведінку хвиль різних частот.</value>
+  </data>
+  <data name="Rules_GreenbergEndGastings_Name" xml:space="preserve">
+    <value>Закон Грінберга і Гастінгса</value>
+  </data>
+  <data name="Rules_Naiv_Deffusion_Description" xml:space="preserve">
+    <value>Модель дифузії щільних газів, без врахування зіткнень зафарбованих частинок</value>
+  </data>
+  <data name="Rules_Naiv_Deffusion_Name" xml:space="preserve">
+    <value>Наївна дифузія</value>
+  </data>
+  <data name="Rules_ParityFlip_Description" xml:space="preserve">
+    <value>Зв'язок між минулим та майбутнім. Простий приклад зворотності. Виконуется логічне \"або\" центральної комірки чотирьох її сусідів, та центральної комірки минулого покоління.</value>
+  </data>
+  <data name="Rules_ParityFlip_Name" xml:space="preserve">
+    <value>Експеремент зв'язку між минулим та майбутнім</value>
+  </data>
+  <data name="Rules_Primitiv_Deffusion_Description" xml:space="preserve">
+    <value>Примітивний ємулятор дифузії. Комірки дифундують вздовж горизонтальних ліній.</value>
+  </data>
+  <data name="Rules_Primitiv_Deffusion_Name" xml:space="preserve">
+    <value>Примітивна дифузія</value>
+  </data>
+  <data name="Rules_Rac_Description" xml:space="preserve">
+    <value>Модель, що дозволяє відслідковувати відмінності в розвиткові двох систем. При проведенні фізичних експерементів це складно виконати, оскільки зовнішні збудження по різному діють на дві копії і при довгій роботі можуть подавити ефекти, які треба відслідкувати.</value>
+  </data>
+  <data name="Rules_Rac_Name" xml:space="preserve">
+    <value>Імітація розвитку ракових пухлин</value>
+  </data>
+  <data name="Rules_Time_Tunnel_Description" xml:space="preserve">
+    <value>\"Нипроникний бар'ер\". Якщо задати початкову конфігурацію як фігуру з одиниць в обох массивах, отримаемо непроникний бар'ер. Ще один приклад подорожі в часі...</value>
+  </data>
+  <data name="Rules_Time_Tunnel_Name" xml:space="preserve">
+    <value>Тунель у часі</value>
+  </data>
+  <data name="Rules_TM_GAS_Description" xml:space="preserve">
+    <value>Модель розрідженого газу з врахуванням зіткнень частинок, та зіткнень частинок з стінками пробірки. Автор Норман Марголус (Масачусетський технологічний інститут).</value>
+  </data>
+  <data name="Rules_TM_GAS_Name" xml:space="preserve">
+    <value>Приклад TM - газу</value>
+  </data>
+  <data name="Rules_UserOptions_Description" xml:space="preserve">
+    <value>Ведіть числа, що відповідають кількості сусідів, розділені комами.  Наприклад: 1,3,6-9</value>
+  </data>
+  <data name="Rules_UserOptions_Name" xml:space="preserve">
+    <value>Власні правила</value>
+  </data>
+  <data name="Rules_VishnaksOptions_Description" xml:space="preserve">
+    <value>Правило виведене Геральдом Вішняком, полягае в \"голосуванні клітин\". Є базою при побудві моделей континуальних явищ поверхневого натягу.</value>
+  </data>
+  <data name="Rules_VishnaksOptions_Name" xml:space="preserve">
+    <value>Поверхневий натяг</value>
+  </data>
+  <data name="SaveFileDlg_Filter" xml:space="preserve">
+    <value>Файли моделі (*.camodel)|*.camodel|All files (*.*)|*.*</value>
+  </data>
+  <data name="SelectedRules" xml:space="preserve">
+    <value>Обрані правила:</value>
+  </data>
+  <data name="SelectRules_btnOkay_Text" xml:space="preserve">
+    <value>Ок</value>
+  </data>
+  <data name="SelectRules_gbSelectRules_Text" xml:space="preserve">
+    <value>Вибір правил розвитку</value>
+  </data>
+  <data name="SelectRules_lblBirthRules_Text" xml:space="preserve">
+    <value>Умови народження</value>
+  </data>
+  <data name="SelectRules_lblSurvivalRules_Text" xml:space="preserve">
+    <value>Умови виживання</value>
+  </data>
+  <data name="SelectRules_Text" xml:space="preserve">
+    <value>Майстер правил коміркового автомата</value>
+  </data>
+  <data name="Rules_Silverman_Name" xml:space="preserve">
+    <value>Cистеми другого порядку</value>
+  </data>
+  <data name="TuningOfTheField_btnAgree_Text" xml:space="preserve">
+    <value>Згоден</value>
+  </data>
+  <data name="TuningOfTheField_btnCancel_Text" xml:space="preserve">
+    <value>Відмінити</value>
+  </data>
+  <data name="TuningOfTheField_chbDontShowInnerBorders_Text" xml:space="preserve">
+    <value>Не показувати сітку</value>
+  </data>
+  <data name="TuningOfTheField_gbOptions_Text" xml:space="preserve">
+    <value>Опціі</value>
+  </data>
+  <data name="TuningOfTheField_lblCellSize_Text" xml:space="preserve">
+    <value>Розмір комірки в пікселях</value>
+  </data>
+  <data name="TuningOfTheField_lblFieldSize_Text" xml:space="preserve">
+    <value>Розмір поля в пікселях</value>
+  </data>
+  <data name="TuningOfTheField_MainText" xml:space="preserve">
+    <value>Машина коміркових автоматів \n Квітень 2008р.</value>
+  </data>
+  <data name="TuningOfTheField_Text" xml:space="preserve">
+    <value>Майстер налаштування параметрів поля</value>
+  </data>
+  <data name="Updater_ErrorMessage_Text" xml:space="preserve">
+    <value>Неможливо встановити нову версію! Перевірте підключення до інтернету та налаштування брандмауера.</value>
+  </data>
+  <data name="Updater_ErrorMessage_Title" xml:space="preserve">
+    <value>Помилка</value>
+  </data>
+  <data name="Updater_UpdateMessage" xml:space="preserve">
+    <value>Поновлення до наступної версії</value>
+  </data>
+  <data name="Rules_Silverman_Description" xml:space="preserve">
+    <value>Приклад системи другого порядку - де наступна конфігурація є функцією теперішньої і минулої конфігурацій, тобто, при визначенні подальшої траекторії використовується пара послідовних конфігурацій. Зворотністі системи дозволяє на її базі моделювати процеси Нь'ютонівської механіки. Автор - Ед Френкін, Масачусетський технологічний інститут.</value>
+  </data>
+  <data name="Updater_Update_AvailableNewVersion" xml:space="preserve">
+    <value>Доступна нова версія, завантажити?</value>
+  </data>
+  <data name="Updater_Update_NotAvailable" xml:space="preserve">
+    <value>Нових версій немає</value>
+  </data>
+  <data name="Updater_Update_Title" xml:space="preserve">
+    <value>Перевірка нових версій</value>
+  </data>
+  <data name="CellFieldUI_gbPlanesToShow_Text" xml:space="preserve">
+    <value>Оберіть площини для перегляду</value>
+  </data>
+  <data name="CellFieldUI_btnDisplayContent_Text" xml:space="preserve">
+    <value>Переглянути</value>
+  </data>
+  <data name="Rules_HarmonicOscillator_Description" xml:space="preserve">
+    <value>Гармонічні коливання</value>
+  </data>
+  <data name="Rules_HarmonicOscillator_Name" xml:space="preserve">
+    <value>Гармонічні коливання</value>
+  </data>
+  <data name="CellFieldUI_gbCellsSize_Text" xml:space="preserve">
+    <value>Розмір комірки</value>
+  </data>
+  <data name="LoadCellValueNotFound" xml:space="preserve">
+    <value>Значення комірки не знайдено</value>
+  </data>
+  <data name="LoadCellValueCoordinatesAreNotCorrect" xml:space="preserve">
+    <value>Координати задано не вірно</value>
+  </data>
+  <data name="btnGetCell_Text" xml:space="preserve">
+    <value>Показ</value>
+  </data>
+  <data name="btnSetCell_Text" xml:space="preserve">
+    <value>Збер</value>
+  </data>
+  <data name="CellFieldUI_CellValue" xml:space="preserve">
+    <value>Знач:</value>
+  </data>
+  <data name="lblCellValue" xml:space="preserve">
+    <value>Показати чи зберегти значення комірки</value>
+  </data>
+  <data name="String" xml:space="preserve">
+    <value>Поточні координати: {0}</value>
+  </data>
+  <data name="lblMouseCurrentPosition_Text" xml:space="preserve">
+    <value>Розміщення: {0}</value>
+  </data>
+</root>
