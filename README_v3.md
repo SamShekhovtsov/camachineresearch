@@ -1,5 +1,11 @@
 # camachineresearch
 
+![Platform](https://img.shields.io/badge/platform-Windows-blue)
+![Language](https://img.shields.io/badge/language-C%23-239120)
+![UI](https://img.shields.io/badge/interface-Desktop%20GUI-5C2D91)
+![Domain](https://img.shields.io/badge/domain-Cellular%20Automata-success)
+![Research](https://img.shields.io/badge/focus-Quantum--inspired%20research-informational)
+
 **Cellular automata machines for learning quantum physics**
 
 A Windows desktop research tool for exploring **cellular automata**, **multi-matrix state spaces**, and **quantum-physics-inspired simulation ideas**.
@@ -7,10 +13,6 @@ A Windows desktop research tool for exploring **cellular automata**, **multi-mat
 `camachineresearch` combines a GUI, a library of automata modes, sample models, tests, localization support, and an updater into one experimental platform for studying discrete systems and emergent behavior.
 
 > The project is designed to study different aspects of the quantum physics and string theory, using Cellular Automata Machine. Download zip, extract to new folder, run CA.UI.exe.
-
-> Looking for other README versions?  
-> - See [README_v2.md](README_v2.md) for the fuller, more detailed project overview  
-> - See [README_v3.md](README_v3.md) for a badge-based, feature-focused public-facing variant
 
 ---
 
@@ -22,6 +24,18 @@ A Windows desktop research tool for exploring **cellular automata**, **multi-mat
 - **Built-in modes and sample models** including wave, diffusion, gas, and oscillator-like experiments
 - **Visualization support** through diagrams and histogram-style views
 - **Updater, setup, tests, and localization** included in the solution
+
+---
+
+## Features
+
+- **Explore emergent behavior quickly** with a ready-to-run desktop simulation UI
+- **Experiment with layered state spaces** using parallel matrices for richer cell models
+- **Switch between multiple automata modes** for different research scenarios
+- **Inspect results visually** with field views, diagrams, and histogram-style outputs
+- **Prototype quantum-inspired ideas** in a discrete, programmable environment
+- **Test sample models out of the box** including oscillator and reflection-based experiments
+- **Work with a complete project package** that includes updater, setup, tests, and localization
 
 ---
 
