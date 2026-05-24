@@ -1,0 +1,16 @@
+services:
+  ca-machines-canvas:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ca-machines-canvas:local
+    container_name: ca-machines-canvas
+    ports:
+      - "5174:5174"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:5174/', timeout=2).read(1)"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 5s
